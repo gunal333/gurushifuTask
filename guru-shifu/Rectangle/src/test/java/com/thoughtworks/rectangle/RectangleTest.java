@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class RectangleTest
 {
     @Test
-    void shouldTestPerimeterOfRectangleWhenLenghandBreadthareInDouble()
+    void shouldTestPerimeterOfRectangleWhenLengthandBreadthareInDouble()
     {
 
         Rectangle rectangle = new Rectangle(2.23,3.65);
@@ -19,7 +19,7 @@ public class RectangleTest
         assertThat(area,closeTo(11.76,0.001));
     }
     @Test
-    void shouldTestAreaOfRectangleWhenLenghandBreadthareInDouble()
+    void shouldTestAreaOfRectangleWhenLengthandBreadthareInDouble()
     {
 
         Rectangle rectangle = new Rectangle(2.23,3.65);
